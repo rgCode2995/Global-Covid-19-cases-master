@@ -1,0 +1,87 @@
+    .infoBox {
+        flex: 1;
+        background-color: #19345c;
+    }
+    
+    .infoBox:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+    .infoBox--selected {
+        border-top: 10px solid greenyellow;
+    }
+    
+    .infoBox--red {
+        border-color: #f9aa5a;
+    }
+    
+    .infoBox--redO {
+        border-color: red;
+    }
+    
+    .infoBox__cases--green {
+        color: lightgreen !important;
+    }
+    
+    .infoBox__cases--red {
+        color: red !important;
+    }
+    
+    .infoBox__cases {
+        color: #f9aa5a;
+        font-weight: 600;
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+        /* text-align: center; */
+    }
+    
+    .infoBox__total {
+        color: #6be1ff;
+        font-weight: 700 !important;
+        font-size: 0.8rem !important;
+        margin-top: 15px !important;
+    }
+    
+    .CardContent_main {
+        display: flex;
+        padding: 0px 25px;
+    }
+    
+    @media (max-width: 990px) {
+        .CardContent_main {
+            flex-direction: column;
+        }
+    }
+    
+    .country_name {
+        color: #6be1ff;
+        font-weight: 600;
+        font-size: 1.75rem;
+    }
+    
+    .country_box {
+        width: 30%;
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    @media (max-width: 990px) {
+        .country_box {
+            width: 100%;
+            padding-top: 2px;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    
+    .infobox_main {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    @media (max-width: 990px) {
+        .infobox_main {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
